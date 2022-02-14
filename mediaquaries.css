@@ -1,27 +1,35 @@
 
 @media only screen and (max-width: 720px) {
-    body {
-      background-color: lightblue;
+   
+  * {
+
+    margin:0px;
+    padding:0px;
+  }
+  
+    .row {
+      width: 720px;
+      margin-top: 0%;
+      text-align: center;
     }
-    body {
-        background-color: lightblue;
-      }
-      body {
-        background-color: lightblue;
-      }
-      body {
-        background-color: lightblue;
-      }
-      body {
-        background-color: lightblue;
-      }
-      body {
-        background-color: lightblue;
-      }
-      body {
-        background-color: lightblue;
-      }
-      body {
-        background-color: lightblue;
-      }
+
+    #lezioni{
+      background-color: #f2f2cd;
+      font-size: 1.2rem;
+      font-weight: 500;
+      vertical-align: top;
+    }
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      width: 90%;
+      float: none;
+      margin: auto;
+     }
+
+     #lezioni .row img {
+       padding-top: 1%;
+      max-width: 25%;
+      height: auto;
+    }
   }
