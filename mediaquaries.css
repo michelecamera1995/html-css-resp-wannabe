@@ -1,35 +1,93 @@
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 420px) {
    
-  * {
+* {
 
-    margin:0px;
-    padding:0px;
-  }
+margin:0px;
+padding:0px;
+}
   
-    .row {
-      width: 720px;
-      margin-top: 0%;
-      text-align: center;
-    }
+.row {
+width: 420px;
+margin-top: 0%;
+}
 
-    #lezioni{
-      background-color: #f2f2cd;
-      font-size: 1.2rem;
-      font-weight: 500;
-      vertical-align: top;
-    }
+#lezioni{
+background-color: #f2f2cd;
+font-size: 1.1rem;
+font-weight: 500;
+vertical-align: top;
+}
 
-    #lezioni .row>.left,
-    #lezioni .row>.right {
-      width: 90%;
-      float: none;
-      margin: auto;
-     }
+#lezioni .row>.left,
+#lezioni .row>.right {
+background-color: #f2f2cd;
+width: 98%;
+float: none;
+}
 
-     #lezioni .row img {
-       padding-top: 1%;
-      max-width: 25%;
-      height: auto;
-    }
+#lezioni .row img {
+padding-top: 1%;
+max-width: 25%;
+height: auto;
+}
+
+#steps {
+  margin-top: 40px;
+}
+
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+float: none;
+width: 98%;
+margin: auto;
+font-size: 1.2rem;
+font-weight: 500;
+    
+}
+#steps .row img {
+padding-top: 1%;
+max-width: 25%;
+height: auto;
+}
+
+#why{
+  width: 100%;
+  margin-top: 40px;
+  background-color: #f2f2cd;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+   
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 98%;
+  margin-top: 0%;
+  padding-top: 5%;
+}
+  
+#why .row img {
+max-width: 15%;
+height: auto;
+}
+
+
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
   }
